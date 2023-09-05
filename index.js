@@ -5,7 +5,7 @@ app.get("/", (req, res) => {
   res.send("<h1>Hello World</h1>");
 });
 
-app.get("/test", (req, res) => {
+app.get("/test1", (req, res) => {
   res.send("<h1>Test</h1>");
 });
 const port = 3005;
